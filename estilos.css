@@ -1,0 +1,49 @@
+body {
+    background-color: #CBD5E7;
+
+}
+
+.mogolico {
+ background-color: #CBD5E7 ;
+}
+
+.boton {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.carta {
+    display: none;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+
+    .carta img{
+
+        float: right;
+     
+
+    }
+    .img {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imagen-pequena {
+       
+        width: 100px; /* Define el ancho deseado */
+        height: 100px; /* Define la altura deseada */
+        margin-right: 10px; /* Espacio entre las imágenes */
+    }
+
+  
